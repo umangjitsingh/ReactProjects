@@ -1,5 +1,6 @@
 import './App.css'
-import LightDarkMode from "./components/Light-Dark/LightDarkMode.jsx";
+import CustomScroll from "./components/CustomScroll/CustomScroll.jsx";
+// import LightDarkMode from "./components/Light-Dark/LightDarkMode.jsx";
 // import TreeView from "./components/TreeView/TreeView.jsx";
 // import QRCodeGenerator from "./components/QRgenerator/QRCodeGenerator.jsx";
 // import {dataTree} from "./components/TreeView/dataTree.js";
@@ -20,7 +21,8 @@ function App() {
          {/*<LoadMore/>*/}
          {/*<TreeView wholeCompany={dataTree}/>*/}
          {/*<QRCodeGenerator/>*/}
-         <LightDarkMode/>
+         {/*<LightDarkMode/>*/}
+         <CustomScroll url={'https://dummyjson.com/products?limit=100'}/>
       </>)
 }
 
