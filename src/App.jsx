@@ -1,5 +1,6 @@
 import './App.css'
-import CustomScroll from "./components/CustomScroll/CustomScroll.jsx";
+import TabsParent from "./components/Tabs/TabsParent.jsx";
+// import CustomScroll from "./components/CustomScroll/CustomScroll.jsx";
 // import LightDarkMode from "./components/Light-Dark/LightDarkMode.jsx";
 // import TreeView from "./components/TreeView/TreeView.jsx";
 // import QRCodeGenerator from "./components/QRgenerator/QRCodeGenerator.jsx";
@@ -22,7 +23,8 @@ function App() {
          {/*<TreeView wholeCompany={dataTree}/>*/}
          {/*<QRCodeGenerator/>*/}
          {/*<LightDarkMode/>*/}
-         <CustomScroll url={'https://dummyjson.com/products?limit=100'}/>
+         {/*<CustomScroll url={'https://dummyjson.com/products?limit=100'}/>*/}
+<TabsParent/>
       </>)
 }
 
